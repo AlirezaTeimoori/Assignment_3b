@@ -1,0 +1,266 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{134, 20}, {288, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "B835FEF6-AC7F-407B-8742-A43EACB7A66F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Choose your pizza size:",
+          "name" : "size_instruction_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{83, 82}, {134, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "large_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Large ($6.00)",
+          "uuid" : "A23D3902-DF72-4C3D-B618-B149D2BC6227",
+          "class" : "Button",
+          "name" : "large_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{323, 82}, {156, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "extra_large_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Extra Large ($10.00)",
+          "uuid" : "E41384AB-C325-43C6-B579-06574E140EF9",
+          "class" : "Button",
+          "name" : "extra_large_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{97, 131}, {362, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F7C12B98-C6D8-4BA1-A653-E59E5154E87A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "How many toppings would you like? (0-4)",
+          "name" : "topping_instruction_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{172, 178}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "between 0 and 4",
+          "font_name" : "<System>",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "19330E41-CF7B-4D86-A628-A06FAFC04158",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "topping_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 268}, {528, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "E335F997-23CC-4FF9-980F-5E3B0CD224A8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "checking_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{232, 218}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "confirm_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Confirm",
+          "uuid" : "A45B6330-0019-4035-BF39-72519C67C238",
+          "class" : "Button",
+          "name" : "topping_confirm_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{211, 319}, {129, 50}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "CB7BBE77-4C1A-4703-8476-AF7E091CF8CE",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{67, 393}, {136, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AmericanTypewriter-Bold",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "762DD5D8-92FA-4EA2-905D-E152501304CA",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Sub Total:",
+          "name" : "subtotal_label",
+          "font_size" : 20
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{67, 439.5}, {136, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AmericanTypewriter-Bold",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "762DD5D8-92FA-4EA2-905D-E152501304CA",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "HST:",
+          "font_size" : 20,
+          "name" : "hst_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{67, 489.5}, {136, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AmericanTypewriter-Bold",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "762DD5D8-92FA-4EA2-905D-E152501304CA",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Final Total:",
+          "font_size" : 20,
+          "name" : "final_label"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{244, 393}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "C9D63E24-E421-45DD-8DC1-38BD752D5B58",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "sub_total_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{244, 439.5}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "695B7763-D1D6-4B42-B613-791EC298D3CC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "hst_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{244, 489.5}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "13655E0C-12A4-43F6-901D-17D8880100D7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "final_total_answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
